@@ -1,0 +1,265 @@
+html {
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-left-logo {
+    width: 110px;
+    margin-right: 30px;
+}
+
+.header-left-media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-left-media > a {
+    width: 30px;
+    margin: 0 5px;
+}
+
+.header-left-media > a > img {
+    width: 100%;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right-burger {
+    width: 80px;
+    background: none;
+    border: 0;
+}
+
+.header-right-burger > img {
+    width: 100%;
+}
+
+.salam{
+    font-family: "Arial";
+    font-size: 50pt;
+    font-style: normal;
+    text-align: center;
+    font-weight: normal;
+}
+.salam-bold{
+    font-weight: bolder;
+}
+
+.event{
+    font-family: "Arial";
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 300px;
+}
+
+.event-judul{
+    font-size: 50pt;
+    margin-bottom: 40px;
+    padding-bottom: 60px;
+}
+.event-judul > span {
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    padding: 12px 0;
+}
+
+.event-detail-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    padding: 10px 20px;
+    margin-top: -2px;
+    background: none;
+    border: 2px solid gray;
+    margin-left: 144px;
+}
+.event-detail-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.event-detail-left-nama{
+    font-size: 20pt;
+    margin-top: 10px;
+}
+
+.event-detail-left-lokasi{
+    font-size: 18pt;
+    color: gray;
+    margin-top: 15px;
+}
+
+.event-detail-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20pt;
+}
+
+.event-see{
+    font-size: 10pt;
+    float: right;
+    color: black;
+    background: none;
+    border: none;
+    padding: 20px 170px;
+}
+
+.release{
+    font-family: "Arial";
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 300px;    
+}
+
+.release-judul{
+    font-size: 50pt;
+}
+
+.release-judul > span{
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    padding: 12px 0;
+}
+
+.release-wrap{
+    display: flex;
+    font-size: 30px;
+    margin-top: 80px ;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.release-konten{
+    text-align: center;
+}
+
+.release-konten > img {
+    width: 400px;
+    display: block;
+}
+
+.video{
+margin-bottom: 300px;
+}
+
+.video-judul {
+    font-size: 50pt;
+    font-family: Arial;
+    text-align: center;
+}
+
+.video-judul > span {
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    padding: 12px 0;
+}
+
+.video-wrap{
+    display: flex;
+    margin-top: 80px;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30pt;
+    font-family: Arial;
+    text-align: center;
+}
+
+.if-i-could > span {
+    margin-bottom: 100px;
+    margin-top: 20px;
+    display: block;
+}
+
+.if-i-could > a > img {
+    width: 900px;
+    height:450px;
+    border-bottom: 8px solid black;
+    padding-bottom: 20px;
+}
+
+.i-was > span {
+    margin-bottom: 100px;
+    margin-top: 20px;
+    display: block;
+}
+
+.i-was > a > img {
+    width: 900px;
+    height:450px;
+    border-bottom: 8px solid black;
+    padding-bottom: 20px;
+}
+
+.see-all{
+    font-family: arial;
+    font-size: 15pt;
+    text-align: right;
+}
+
+.quotes {
+    background-image: url("img/Coveralbum.png");
+    height: 1920px;
+    font-family: arial;
+    font-size: 30pt;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.quotes-box{
+    position: absolute;
+    top: 72.5%;
+    left: 70%;
+    transform: translate(-70%, -50%);
+opacity: 0.4;
+}
+
+.kalimat{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-70%, -50%);
+}
+
+.nama{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-75%, -50%);
+    font-weight: bold;
+}
